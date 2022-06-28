@@ -1,1 +1,31 @@
 /* Write your CSS here! */
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+  }
+
+  .type {
+    background-color: yellowgreen;
+  }
+/* 
+  main {
+    margin: 0;
+    padding: 5px;
+    background-color: grey;
+  }
+   */
+  /* main > h1, p, .browser {
+    margin: 10px;
+    padding: 5px;
+  } */
+  
+  .types {
+    background: white;
+  }
+  
+  .types > h2, p {
+    margin: 4px;
+    font-size: 90%;
+  }
