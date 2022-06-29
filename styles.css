@@ -1,31 +1,78 @@
 /* Write your CSS here! */
+body {
+    margin: 8px;
+    display: block;
+}
+
+#mainHeading {
+    text-align: center;
+    color: red;
+    padding: 3px;
+    background-color: black;
+    display: block;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20%;
+    width: 15%;
+}
+
+.middle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 25%;
+    width: 30%;
+}
+
+
+.funParagraph {
+    text-align: center;
+    color: green;
+}
+
 footer {
     text-align: center;
-    padding: 3px;
-    background-color: DarkSalmon;
+    display: block;
     color: white;
-  }
+}
 
-  .type {
-    background-color: yellowgreen;
-  }
-/* 
-  main {
+.contact {
+    color: red;
+    text-align: center;
+
+}
+
+.type {
+    color: red;
+}
+
+main {
     margin: 0;
     padding: 5px;
-    background-color: grey;
-  }
-   */
-  /* main > h1, p, .browser {
-    margin: 10px;
-    padding: 5px;
-  } */
-  
-  .types {
+    background-color: black;
+}
+/* 
+main>h1,
+p,
+.types {
+    margin: 20px;
+} */
+
+.types {
     background: white;
-  }
-  
-  .types > h2, p {
+}
+
+.types>h2,
+p {
     margin: 4px;
     font-size: 90%;
-  }
+}
+
+h3 {
+    color: red;
+    display: block;
+}
